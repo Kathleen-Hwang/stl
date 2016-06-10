@@ -12,15 +12,15 @@ int main() {
 
 	vector<int>::iterator it = v.begin();
 
-	cout << it[1] << endl;
+	cout << it[1] << endl;	// 20
 
 	it += 2;
 	
-	cout << *it << endl;
+	cout << *it << endl;	// 30
 
 	it -= 2;
 	
-	cout << *it << endl;
+	cout << *it << endl;	// 10
 	
 	return 0;
 }
