@@ -18,5 +18,9 @@ int main() {
 	
 	cout << *it << endl;
 
+	it -= 2;
+	
+	cout << *it << endl;
+	
 	return 0;
 }
